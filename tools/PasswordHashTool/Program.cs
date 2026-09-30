@@ -1,0 +1,1 @@
+using Microsoft.AspNetCore.Identity;using MyExpenseTracker.Api.Models;if(args.Length!=1)return 1;Console.WriteLine(new PasswordHasher<AppUser>().HashPassword(new AppUser{UserName="Alchemist"},args[0]));return 0;
