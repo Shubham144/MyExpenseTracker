@@ -1,0 +1,2 @@
+# IIS
+Install the .NET 8 Hosting Bundle. Build React with npm install && npm run build. Publish the API with dotnet publish src/MyExpenseTracker.Api -c Release -o publish. Configure IIS for the published ASP.NET Core app and keep its generated web.config. Serve the React dist output from IIS or use IIS reverse-proxy rules for /api. Put the production SQL connection string in an IIS environment variable. Keep SQL Server private.
