@@ -1,0 +1,2 @@
+# Internet access without a client VPN
+Use Cloudflare Tunnel with cloudflared on the IIS Windows host. The connector makes outbound connections, so users access a normal HTTPS hostname without installing a VPN client. Configure a published application route to the IIS HTTPS binding and run cloudflared as a Windows service. Keep SQL Server and management ports private. A production hostname requires a domain managed through Cloudflare.
